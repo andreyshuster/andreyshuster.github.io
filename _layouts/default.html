@@ -13,7 +13,12 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- Favicon
+  <link rel="stylesheet"
+        href="https://unpkg.com/purecss@0.6.2/build/pure-min.css"
+        integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD"
+        crossorigin="anonymous">
+  
+<!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -22,13 +27,14 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <nav>
-    <ul>
-      <li><a href="/about">About</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/games">Games</a></li>
+  <div class="pure-menu pure-menu-horizontal">
+    <a href="#" class="pure-menu-heading pure-menu-link">AS</a>
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item"><a href="/about" class="pure-menu-link">About</a></li>
+      <li class="pure-menu-item"><a href="/blog" class="pure-menu-link">Blog</a></li>
+      <li class="pure-menu-item"><a href="/games" class="pure-menu-link">Games</a></li>
     </ul>
-  </nav>
+  </div>
   <div class="container">
     {{ content }}
   </div>
