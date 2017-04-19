@@ -28,17 +28,18 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="pure-menu pure-menu-horizontal">
-    <a href="#" class="pure-menu-heading pure-menu-link">AS</a>
+    <a href="/" class="pure-menu-heading pure-menu-link">AS</a>
     <ul class="pure-menu-list">
       <li class="pure-menu-item"><a href="/about" class="pure-menu-link">About</a></li>
       <li class="pure-menu-item"><a href="/blog" class="pure-menu-link">Blog</a></li>
       <li class="pure-menu-item"><a href="/games" class="pure-menu-link">Games</a></li>
     </ul>
   </div>
-  <div class="container">
-    {{ content }}
+  <div class="pure-g container">
+    <div class="pure-u-1-1">
+      {{ content }}
+    </div>
   </div>
-
   <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
