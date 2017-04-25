@@ -4,7 +4,8 @@ import sys
 from datetime import datetime
 
 current_date = datetime.now().strftime("%Y-%m-%d")
-f = open("_posts/{0}-{1}.md".format(current_date, sys.argv[1]), "w+")
+post_name = "_posts/{0}-{1}.md".format(current_date, sys.argv[1])
+f = open(post_name, "w+")
 contents = """---
 layout: post
 date: {1}
@@ -13,5 +14,6 @@ date: {1}
 f.write(contents)
 f.close()
 
-         
+print post_name
+
 
