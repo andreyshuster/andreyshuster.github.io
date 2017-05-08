@@ -9,7 +9,7 @@ title: Andrey's Shuster Blog
   <li><span>{{ post.date | date_to_string }}</span> » 
   <a href="{{post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   <br />
-  {{ post.excerpt }}
+  {{ post.content | truncatewords:42 }}
   </li>
   {% endfor %}
 </ul>
