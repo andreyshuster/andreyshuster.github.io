@@ -1,0 +1,74 @@
+.pure-menu-list .pure-menu-selected .pure-menu-link {
+    color: #fff;
+}
+
+.home-title {
+    margin-top: 100px;
+}
+
+.content-wrapper {
+    top: 90%;
+}
+
+.splash-container {
+    background: #fff;
+    height: 100%;
+}
+.powerbells-bg-left,
+.powerbells-bg-right {
+    background-color: #fff;
+    background-image: url('../img/big-logo-semi.png');
+    background-repeat: no-repeat;
+}
+
+.powerbells-bg-left {
+    background-position: left bottom;
+}
+
+.powerbells-bg-right {
+    background-position: right bottom;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.bg-like {
+    position: absolute;
+    opacity: 0.2;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.front-like {
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 10%;
+    right: 33%;
+    font-weight: 800;
+}
+
+.prices-table td{
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.light-font {
+    color: #fff;
+}
+
+.gray-color {
+    color: rgb(81, 81, 83) !important;	
+}
+
+.gray-bg {
+    background-color: rgb(81, 81, 83) !important;	
+}
+
+.light-font a {
+    color: rgb(0, 128, 184);
+}

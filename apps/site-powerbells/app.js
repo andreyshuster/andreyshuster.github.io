@@ -1,5 +1,5 @@
 (function($) {
-  $(".pure-menu-item").click(function(e) {
+    $(".pure-menu-item").click(function(e) {
     e.stopPropagation();
     $(".pure-menu-item").removeClass("pure-menu-selected");
     $(e.currentTarget).addClass("pure-menu-selected");

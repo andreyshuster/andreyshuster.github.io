@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <meta name="description" content="">
     <title>Powerbells מועדון</title>
     
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/local.css">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
     <![endif]-->
@@ -21,10 +20,13 @@
     <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="css/layouts/marketing.css">
     <!--<![endif]-->
+    <link rel="stylesheet" href="/node_modules/lightbox2/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/local.css">
   </head>
   <body dir="rtl">
     <div class="header">
-      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <div class="home-menu pure-menu pure-menu-horizontal
+                  pure-menu-fixed gray-bg">
         <a class="pure-menu-heading" href="">Powerbells.co.il</a>
         
         <ul class="pure-menu-list">
@@ -39,15 +41,15 @@
     </div>
     
     <div class="splash-container logo">
-      <div class="pure-g">
+      <div class="pure-g powerbells-bg-left">
         <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-          <h4>אימון פונקציונאל</h4>
+          <h4>&nbsp;</h4>
           <iframe width="320" height="180" src="https://www.youtube.com/embed/CigR4JNM-14" frameborder="0" allowfullscreen></iframe>
           <iframe width="320" height="180" src="https://www.youtube.com/embed/Y2LP953xSa4" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+        <div class="l-box-lrg gray-font pure-u-1 pure-u-md-3-5">
           <h1 class="home-title"> Powerbells מועדון</h1>
-          <p>
+          <p class="gray-font">
             אנו מציעים מגוון רחב של אימונים למטרות שונות. בין אם אתם מחפשים לשפר סבולת לב ריאה ובין אם אתם מעוניינים להשיל כמה קילוגרמים מיותרים, תנו לנו להתאים לכם תכנית אימונים שתגשים את מטרותיכם בצורה היעילה ביותר. תכנית סדורה ושיטתית אשר תוביל לתוצאות בזמן הנכון.
           </p>
         </div>
@@ -57,7 +59,7 @@
       <div class="content" id="about">
         <h2 class="content-head is-center">מי אנחנו</h2>
 
-        <div class="pure-g">
+        <div class="pure-g powerbells-bg-right">
           <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
             <h4>אימון פונקציונלי</h4>
             <p>
@@ -67,81 +69,85 @@
             </p>
           </div>
           <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-            <img src="../gallery/14.jpg" class="pure-img" />
+            <img src="/gallery/14.jpg" class="pure-img" />
           </div>
         </div>
       </div>
       <div class="content" id="gallery">
         <h2 class="content-head is-center">גלריה</h2>
 
-        <div class="pure-g">
+        <div class="pure-g" id="lightgallery">
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/1.jpg" class="pure-img"/>
+            <a href="/gallery/1.jpg" data-lightbox="image-1" data-title="My caption">
+              <img src="/gallery/1.jpg" class="pure-img"/>
+            </a>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/2.jpg" class="pure-img"/>
+            <img src="/gallery/2.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/3.jpg" class="pure-img"/>
+            <img src="/gallery/3.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/4.jpg" class="pure-img"/>
+            <img src="/gallery/4.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/6.jpg" class="pure-img"/>
+            <img src="/gallery/6.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/7.jpg" class="pure-img"/>
+            <img src="/gallery/7.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/8.jpg" class="pure-img"/>
+            <img src="/gallery/8.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/9.jpg" class="pure-img"/>
+            <img src="/gallery/9.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/10.jpg" class="pure-img"/>
+            <img src="/gallery/10.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/11.jpg" class="pure-img"/>
+            <img src="/gallery/11.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/12.jpg" class="pure-img"/>
+            <img src="/gallery/12.jpg" class="pure-img"/>
           </div>
           <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <img src="../gallery/13.jpg" class="pure-img"/>
+            <img src="/gallery/13.jpg" class="pure-img"/>
           </div>
         </div>
       </div>
 
-      <div class="ribbon l-box-lrg pure-g" id="prices">
+      <div class="ribbon l-box-lrg pure-g gray-bg" id="prices">
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-          <h2 class="content-head content-head-ribbon">מחירים</h2>
-          <table>
-            <tr>
-              <td>מנוי שנתי </td><td>300 ש"ח לחודש</td>
-            </tr>
-            <tr>
-              <td>מנוי חצי שנתי</td><td>320 ש"ח</td>
-            </tr>
-            <tr>
-              <td>מנוי 3 חודשים</td><td>350 ש"ח</td>
-            </tr>
-            <tr>
-              <td>אימון אישי –</td><td>200 ש''ח</td>
-            </tr>
-          </table>
+          <h2 class="is-center content-head content-head-ribbon">מחירים</h2>
+          <div class="centered">
+            <table class="light-font prices-table">
+              <tr>
+                <td> מנוי שנתי</td><td>300 ש"ח לחודש</td>
+              </tr>
+              <tr>
+                <td> מנוי חצי שנתי</td><td>320 ש"ח לחודש</td>
+              </tr>
+              <tr>
+                <td> מנוי 3 חודשים</td><td>350 ש"ח לחודש</td>
+              </tr>
+              <tr>
+                <td> אימון אישי</td><td>200 ש״ח לחודש</td>
+              </tr>
+            </table>
+          </div>
         </div>
         <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-          <img src="../gallery/15.jpg" class="pure-img" />
+          <img src="/gallery/15.jpg" class="pure-img" />
         </div>
       </div>
       <div class="content" id="team">
         <h2 class="content-head is-center">צוות</h2>
         
-        <div class="pure-g">
+        <div class="pure-g powerbells-bg-left">
           <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-            <img src="../gallery/1.jpg" class="pure-img" />
+            <img src="/gallery/1.jpg" class="pure-img" />
           </div>
           
           <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
@@ -156,34 +162,26 @@
           </div>
         </div>
       </div>
-      <div class="content" id="contact">
-        <h2 class="content-head is-center">צור קשר</h2>
-
-        <div class="pure-g">
-          <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-            <h4>צור קשר</h4>
-            <p>
-              0647-615002 – מיכאל
-              <br />
-              <a href="mailto:Athletics4u@gmail.com">Athletics4u@gmail.com</a>
-              <br />
-              <a href="https://www.facebook.com/powerbells.raanana/">Facebook</a>
-              <br />
-              המועדון נמצא ברחוב היוצרים 13 , אור יהודה
-            </p>
-          </div>
-          <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-            <img src="../gallery/5.jpg" class="pure-img" />
-          </div>
+      <div class="ribbon l-box-lrg pure-g gray-bg" id="contact">
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+          <h2 class="content-head content-head-ribbon">צור קשר</h2>
+          <p class="light-font">
+            0647-615002 – מיכאל
+            <br />
+            <a href="mailto:Athletics4u@gmail.com">Athletics4u@gmail.com</a>
+            <br />
+            <a href="https://www.facebook.com/powerbells.raanana/">Facebook</a>
+            <br />
+            המועדון נמצא ברחוב היוצרים 13 , אור יהודה
+          </p>
         </div>
-
+        <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+          <img src="/gallery/15.jpg" class="pure-img" />
+        </div>
       </div>
-      
-      <div class="footer l-box is-center">
-        Some text in footer if needed
-      </div>
-      <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-      <script type="text/javascript" src="app.js"></script>
+      <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/lightbox2/dist/js/lightbox.min.js"></script>
+      <script type="text/javascript" src="/app.js"></script>
     </div>
 </body>
 </html>
