@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 date: 2017-08-21
 ---
 Закончил читать книгу "Making of Karateka", начал следующую - "Making
