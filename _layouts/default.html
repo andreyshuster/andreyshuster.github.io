@@ -5,49 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal homepage.">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
-    <!--<![endif]-->
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="/css/layouts/blog-old-ie.css">
-        <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="/css/layouts/blog.css">
-        <!--<![endif]-->
 </head>
 <body>
-  <div id="layout" class="pure-g">
-    <div class="sidebar pure-u-1 pure-u-md-1-4">
-      <div class="header">
-        <h1 class="brand-title">Derpest</h1>
-        <h2 class="brand-tagline">Dungeon</h2>
-        
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="/" class="pure-button">Home</a></li>
-            <li class="nav-item"><a href="/about" class="pure-button">About</a></li>
-            <li class="nav-item"><a href="/blog" class="pure-button">Blog</a></li>
-            <li class="nav-item"><a href="/games" class="pure-button">Apps</a></li>
-          </ul>
-        </nav>
-      </div>
+  <div id="layout">
+    <div>
+      <h1>Fun with JS</h1>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/games">Apps</a></li>
+      </ul>
     </div>
-
-    <div class="content pure-u-1 pure-u-md-3-4">
-      <div>
-        <div class="posts">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="pure-menu pure-menu-horizontal">
-      </div>
+    <div class="posts">
+      {{ content }}
     </div>
   </div>
   <script>
