@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Andrey Shuster, The New Beginning"
+title: "Hello, blog"
 date: 2017-04-17
 
 ---
-New beginning for blog and shit.
+Hello, blog!
