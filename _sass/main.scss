@@ -1,19 +1,43 @@
-body {
-    padding: 0 1%;
+/* from dark to light */
+$color-1: #5d001e;
+$color-2: #9a1750;
+$color-3: #ee4c7c;
+$color-4: #e3afbc;
+$color-5: #e3e2df;
+$text-color: #000;
+
+
+html, body {
+    background: $color-5;
+    height: 100%;
 }
 
 #layout {
     display: flex;
-
+    height: 100%;
+    
     #menu {
+        padding: 0 1rem;
         flex: 1;
-
+        background: $color-1;
+        
+        ul li {
+            list-style: none;
+            a {
+                color: $color-5;
+                font-weight: bold;
+            }
+        }
         h1 {
-            color: red;
+            color: $color-5;
         }
     }
     
     #content {
-        flex: 3;
+        h2 {
+            color: $color-1;
+        }
+        padding-left: 1rem;
+        flex: 8;
     }
 }
