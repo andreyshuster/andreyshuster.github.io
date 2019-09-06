@@ -7,3 +7,5 @@ defaults:
     values:
       image: true
     
+plugins:
+  - hook-add-last-modified-date
