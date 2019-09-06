@@ -1,7 +1,19 @@
-html {
-    font-family: sans-serif
+body {
+    padding: 0 1%;
 }
 
-h1 {
-    color: red;
+#layout {
+    display: flex;
+
+    #menu {
+        flex: 1;
+
+        h1 {
+            color: red;
+        }
+    }
+    
+    #content {
+        flex: 3;
+    }
 }
