@@ -10,12 +10,9 @@
 </head>
 <body>
     <div id="layout">
-        <div id="menu">
-            <h1>Random();</h1>
-            {% include navigation.html %}
-        </div>
       <div id="content">
-          <h2>Making internet great again</h2>
+          <h2><a href="/">Making internet great again</a></h2>
+            {% include navigation.html %}
           {{ content }}
           {{ page.last-modified-date }}
       </div>
