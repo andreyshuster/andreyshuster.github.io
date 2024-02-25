@@ -1,1 +1,1 @@
-I write stuff [here](/blog)
+I write [stuff](/blog)
