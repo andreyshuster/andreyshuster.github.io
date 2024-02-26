@@ -22,6 +22,6 @@ After I discarded all the fluff and stopped spending time setting up the system,
 
 Obsidian reveals its potential only if you need to maintain a personal Wikipedia with cross-references, and Notion - when group access of people with different tasks is required. Bear or Apple Notes provide enough functionality for 95% of users and cases!
 
-My note-taking process is very simple. Practically throughout the day, I manage with one file in which I write down thoughts, reminders, and maintain a list of tasks that I need to do. I periodically go through this list - work-related items go into JIRA, personal ones into email, or, if the task takes little time and doesn't require explanations, I do it right away. Usually I don’t tag notes right away, I do it during weekly review.
+My note-taking process is very simple. Practically throughout the day, I manage with one file in which I write down thoughts, reminders, and maintain a list of tasks that I need to do. I periodically go through this list - work-related items go into JIRA, personal ones into email, or, if the task takes little time and doesn't require explanations, I do it right away. Usually I don’t tag notes immediately, I do it during weekly review.
 
 In general, for now, I've decided to stick with Bear as the main system and Apple Notes for quick notes.
