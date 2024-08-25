@@ -5,6 +5,13 @@ draft = false
 tags = ["sql","devops"]
 +++
 
+> When writing an SQL query, you start with `SELECT` and then `FROM`
+  because it resembles human language: first, you say what you want to
+  get (for example, a list of names), and then you specify where to
+  get this data from (from the participants table). It's easier to
+  remember and formulate this way, although all programmers agree that
+  it would be better the other way around — `FROM ... SELECT`.
+
 When I started programming professionally, I somehow decided that
 knowing SQL wasn't necessary at all. For complex questions, there were
 DBAs, and for simple ones, there were ORMs. SQL seemed too arcane,
