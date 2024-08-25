@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h3>Latest Blog Posts</h3>
+  <ul>
+    {{ range .Site.RegularPages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
