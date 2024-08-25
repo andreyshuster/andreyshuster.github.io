@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DevOps Log</title>
-    <link>https://andreyshuster.github.io/</link>
-    <description>Recent content on DevOps Log</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© Andrey Shuster</copyright>
-    <lastBuildDate>Mon, 06 Feb 2023 20:37:33 -0600</lastBuildDate><atom:link href="https://andreyshuster.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <title>Less is more</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Less is more</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2024, Andrey Shuster.</copyright>
+    <lastBuildDate>Sun, 25 Feb 2024 22:31:38 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://andreyshuster.github.io/posts/hello-world/</link>
-      <pubDate>Mon, 06 Feb 2023 20:37:33 -0600</pubDate>
-      
-      <guid>https://andreyshuster.github.io/posts/hello-world/</guid>
-      <description>My first post </description>
+      <title>My note-taking journey</title>
+      <link>http://localhost:1313/my-note-taking-journey/</link>
+      <pubDate>Sun, 25 Feb 2024 22:31:38 -0600</pubDate>
+      <guid>http://localhost:1313/my-note-taking-journey/</guid>
+      <description>A samurai has no goal, only a path (c).&#xA;At some point, the flow of incoming information becomes very large and powerful like the Niagara Falls. Naturally, the thought arises - to WRITE DOWN this information. The second thought is to create a NOTE ORGANIZATION SYSTEM because while writing it down is good, the recorded information needs to be searched and used, preferably with minimal effort between these points.&#xA;I&amp;rsquo;ve tried most of the popular note-taking apps, from Notion to Obsidian and OneNote.</description>
     </item>
-    
+    <item>
+      <title>Todo Lists Are Enough</title>
+      <link>http://localhost:1313/todo-lists-are-enough/</link>
+      <pubDate>Sun, 04 Feb 2024 20:34:42 -0600</pubDate>
+      <guid>http://localhost:1313/todo-lists-are-enough/</guid>
+      <description>I always try to organize my workspace using a minimum of tools and simple rules that work for 90% of my tasks. Simple rules are easier to follow, and it doesn&amp;rsquo;t take much time to get used to them.&#xA;For example, managing pet projects. I work on them quite irregularly, with breaks of several days or even a couple of weeks. Context is forgotten, and returning to project tasks takes half an hour, even though I only have an hour of free time for the project.</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/about/</guid>
+      <description>Hey there, I&amp;rsquo;m Andrey, DevOps specialist and programmer with passion for all things tech, especially cybersecurity and automating things.&#xA;My journey has been one of autodidacticism – an odyssey of self-directed learning and practical experience. My foundation was not laid in the traditional confines of a classroom, but rather through a curiosity and desire to unravel the complexities of computers.&#xA;I am a big fan of classic science fiction like Isaac Asimov&amp;rsquo;s &amp;ldquo;Foundation&amp;rdquo;, &amp;ldquo;The Futurological Congress&amp;rdquo; by Stanislaw Lem or &amp;ldquo;The Moon is a Harsh Mistress&amp;rdquo; by Robert Heinlein.</description>
+    </item>
   </channel>
 </rss>
