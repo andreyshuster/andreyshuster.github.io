@@ -4,6 +4,7 @@
     {{ range .Site.RegularPages }}
       <li>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ if .Draft }}<span style="color: #888; font-size: 0.8em; margin-left: 8px;">[DRAFT]</span>{{ end }}
         <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
       </li>
     {{ end }}
