@@ -146,4 +146,4 @@ Now that we have the basic setup working, we could:
 
 But for now, alerts are going to Telegram, and that is a win.
 
-*P.S. Don't forget to run those troubleshooting commands after any `helm upgrade` because the ConfigMap will get reset. It's in the docs now!*
+*P.S. Don't forget to run those troubleshooting commands after any `helm upgrade` because the ConfigMap will get reset.*
