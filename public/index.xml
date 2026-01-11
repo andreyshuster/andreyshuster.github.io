@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Andrey Shuster.</copyright>
-    <lastBuildDate>Fri, 14 Nov 2025 22:23:11 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 21:59:22 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Telegram Alerts for Prometheus - A Journey</title>
+      <link>http://localhost:1313/setting-up-telegram-alerts-for-prometheus-a-journey/</link>
+      <pubDate>Sat, 10 Jan 2026 21:59:22 -0600</pubDate>
+      <guid>http://localhost:1313/setting-up-telegram-alerts-for-prometheus-a-journey/</guid>
+      <description>&lt;p&gt;Today I added something useful and long overdue to my homelab.&#xA;My Spectrum router does not cover the whole house (it is not in the middle, but in a side room which is my home office), so I purchased an additional WiFi pod from Spectrum to create a mesh network. Unfortunately, the outlet where the pod is plugged in is a bit loose, so sometimes it disconnects and then Netflix starts to misbehave.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Update SteamOS packages</title>
       <link>http://localhost:1313/update-steamos-packages/</link>
@@ -22,6 +29,13 @@
       <pubDate>Sat, 24 Aug 2024 22:00:46 -0500</pubDate>
       <guid>http://localhost:1313/why-sql-is-important/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;When writing an SQL query, you start with &lt;code&gt;SELECT&lt;/code&gt; and then &lt;code&gt;FROM&lt;/code&gt;&#xA;because it resembles human language: first, you say what you want to&#xA;get (for example, a list of names), and then you specify where to&#xA;get this data from (from the participants table). It&amp;rsquo;s easier to&#xA;remember and formulate this way, although all programmers agree that&#xA;it would be better the other way around — &lt;code&gt;FROM ... SELECT&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://localhost:1313/raspberry-pi/</link>
+      <pubDate>Thu, 02 May 2024 09:49:49 -0500</pubDate>
+      <guid>http://localhost:1313/raspberry-pi/</guid>
+      <description>&lt;p&gt;TBD&lt;/p&gt;</description>
     </item>
     <item>
       <title>My note-taking journey</title>
@@ -43,6 +57,34 @@
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pages/about/</guid>
       <description>&lt;p&gt;Hey there, I&amp;rsquo;m Andrey, DevOps specialist and programmer with passion&#xA;for all things tech, especially cybersecurity and automating things.&lt;/p&gt;&#xA;&lt;p&gt;My journey has been one of autodidacticism – an odyssey of&#xA;self-directed learning and practical experience. My foundation was not&#xA;laid in the traditional confines of a classroom, but rather through a&#xA;curiosity and desire to unravel the complexities of computers.&lt;/p&gt;&#xA;&lt;p&gt;I am a big fan of classic science fiction like Isaac Asimov&amp;rsquo;s&#xA;&amp;ldquo;Foundation&amp;rdquo;, &amp;ldquo;The Futurological Congress&amp;rdquo; by Stanislaw Lem or &amp;ldquo;The&#xA;Moon is a Harsh Mistress&amp;rdquo; by Robert Heinlein.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eli5 2</title>
+      <link>http://localhost:1313/eli5/eli5-2/</link>
+      <pubDate>Sun, 06 Aug 2023 10:58:35 -0500</pubDate>
+      <guid>http://localhost:1313/eli5/eli5-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eli5 1</title>
+      <link>http://localhost:1313/eli5/eli5-1/</link>
+      <pubDate>Sun, 06 Aug 2023 10:58:33 -0500</pubDate>
+      <guid>http://localhost:1313/eli5/eli5-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Another One</title>
+      <link>http://localhost:1313/another-one/</link>
+      <pubDate>Sun, 06 Aug 2023 10:21:01 -0500</pubDate>
+      <guid>http://localhost:1313/another-one/</guid>
+      <description>&lt;p&gt;another post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/hello-world/</link>
+      <pubDate>Sat, 06 May 2023 20:37:33 -0600</pubDate>
+      <guid>http://localhost:1313/hello-world/</guid>
+      <description>&lt;p&gt;My first post&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
