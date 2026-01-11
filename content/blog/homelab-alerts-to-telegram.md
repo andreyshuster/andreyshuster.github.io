@@ -67,12 +67,69 @@ Pretty straightforward: if `probe_success` is 0, something is wrong.
 
 Here is where it got interesting. We wanted to send alerts to Telegram, but we had a problem: **how do you configure secrets without committing them to GitHub?**
 
-The solution:
+First, you need a bot. Hit up **@BotFather** on Telegram.
 
-1. Add the actual config file to `.gitignore`.
-2. Create a Kubernetes Secret with the real Telegram bot token and chat ID.
-3. Configure Helm to use this Secret.
+- Send `/newbot`
+- Follow the prompts
+- Save the bot token (looks like `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`)
 
+Then get your chat ID.
+
+- Start a chat with your bot
+- Send it any message
+- Visit `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`
+- Grab the chat ID from the JSON response
+
+## The Alertmanager Telegram Config
+
+Next, create an Alertmanager config that sends nicely formatted HTML messages to Telegram.
+
+```yaml
+global:
+  resolve_timeout: 5m
+route:
+  group_by: ['alertname', 'cluster', 'service']
+  group_wait: 10s
+  group_interval: 10s
+  repeat_interval: 12h
+  receiver: 'telegram'
+receivers:
+  - name: 'telegram'
+    telegram_configs:
+      - bot_token: 'YOUR_BOT_TOKEN_HERE'
+        chat_id: YOUR_CHAT_ID_HERE
+        parse_mode: 'HTML'
+        message: |
+          {{ range .Alerts }}
+          <b>{{ .Status | toUpper }}</b>
+          <b>Alert:</b> {{ .Labels.alertname }}
+          <b>Instance:</b> {{ .Labels.instance }}
+          <b>Severity:</b> {{ .Labels.severity }}
+          <b>Summary:</b> {{ .Annotations.summary }}
+          <b>Description:</b> {{ .Annotations.description }}
+          {{ end }}
+```
+
+The message template uses Go templating to loop through alerts and format them with HTML tags that Telegram understands.
+
+## Keeping secrets out of Git
+
+1. Add the actual config file with real credentials  to `.gitignore`.
+2. Created a Kubernetes Secret with the config :
+   ```bash
+   kubectl apply -f prometheus/alertmanager-config.yaml
+   ```
+3. Configured Helm to use this secret by adding to `prometheus-values.yaml`:
+   ```yaml
+   alertmanager:
+     enabled: true
+     configFromSecret: "alertmanager-telegram-config"
+   ```
+4. Applied with Helm:
+   ```bash
+   helm upgrade prometheus prometheus-community/prometheus \
+   -n monitoring -f prometheus/prometheus-values.yaml
+   ```
 Seemed perfect. Except…
 
 ## The Plot Twist
