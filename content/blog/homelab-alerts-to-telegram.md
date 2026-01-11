@@ -69,10 +69,9 @@ Here is where it got interesting. We wanted to send alerts to Telegram, but we h
 
 The solution:
 
-1. Create an example config file with placeholders (`alertmanager-config.example.yaml`).
-2. Add the actual config file to `.gitignore`.
-3. Create a Kubernetes Secret with the real Telegram bot token and chat ID.
-4. Configure Helm to use this Secret.
+1. Add the actual config file to `.gitignore`.
+2. Create a Kubernetes Secret with the real Telegram bot token and chat ID.
+3. Configure Helm to use this Secret.
 
 Seemed perfect. Except…
 
