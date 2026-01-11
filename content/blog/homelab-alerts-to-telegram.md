@@ -188,7 +188,7 @@ And  Telegram notification received.
 ## Lessons Learned
 
 1. **Helm charts do not always work the way you expect** – sometimes you have to work around them.
-2. **ConfigMaps get overwritten by Helm** – this is now documented in the troubleshooting guide.
+2. **ConfigMaps get overwritten by Helm**
 3. **Testing with the API is much faster** – do not wait 2 minutes for real alerts to fire.
 4. **Never commit secrets to Git** – even when it seems convenient.
 
