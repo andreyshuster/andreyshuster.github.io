@@ -1,90 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Less is more</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Less is more</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <copyright>Copyright © 2024, Andrey Shuster.</copyright>
-    <lastBuildDate>Sat, 10 Jan 2026 21:59:22 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Setting Up Telegram Alerts for Prometheus - A Journey</title>
-      <link>http://localhost:1313/setting-up-telegram-alerts-for-prometheus-a-journey/</link>
-      <pubDate>Sat, 10 Jan 2026 21:59:22 -0600</pubDate>
-      <guid>http://localhost:1313/setting-up-telegram-alerts-for-prometheus-a-journey/</guid>
-      <description>&lt;p&gt;Today I added something useful and long overdue to my homelab.&#xA;My Spectrum router does not cover the whole house (it is not in the middle, but in a side room which is my home office), so I purchased an additional WiFi pod from Spectrum to create a mesh network. Unfortunately, the outlet where the pod is plugged in is a bit loose, so sometimes it disconnects and then Netflix starts to misbehave.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Update SteamOS packages</title>
-      <link>http://localhost:1313/update-steamos-packages/</link>
-      <pubDate>Fri, 14 Nov 2025 22:23:11 -0600</pubDate>
-      <guid>http://localhost:1313/update-steamos-packages/</guid>
-      <description>&lt;p&gt;To update Arch Linux system packages you usually run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman-key --init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman-key --populate archlinux&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;However, for SteamOS is not enough. You will continue to get error about corrupted packages.&lt;/p&gt;&#xA;&lt;p&gt;SteamOS packages are signed by their own GPG keys and they are need to populated too.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman-key --populate holo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You&amp;rsquo;re welcome!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Why Sql Is Important?</title>
-      <link>http://localhost:1313/why-sql-is-important/</link>
-      <pubDate>Sat, 24 Aug 2024 22:00:46 -0500</pubDate>
-      <guid>http://localhost:1313/why-sql-is-important/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;When writing an SQL query, you start with &lt;code&gt;SELECT&lt;/code&gt; and then &lt;code&gt;FROM&lt;/code&gt;&#xA;because it resembles human language: first, you say what you want to&#xA;get (for example, a list of names), and then you specify where to&#xA;get this data from (from the participants table). It&amp;rsquo;s easier to&#xA;remember and formulate this way, although all programmers agree that&#xA;it would be better the other way around — &lt;code&gt;FROM ... SELECT&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Raspberry Pi</title>
-      <link>http://localhost:1313/raspberry-pi/</link>
-      <pubDate>Thu, 02 May 2024 09:49:49 -0500</pubDate>
-      <guid>http://localhost:1313/raspberry-pi/</guid>
-      <description>&lt;p&gt;TBD&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My note-taking journey</title>
-      <link>http://localhost:1313/my-note-taking-journey/</link>
-      <pubDate>Sun, 25 Feb 2024 22:31:38 -0600</pubDate>
-      <guid>http://localhost:1313/my-note-taking-journey/</guid>
-      <description>&lt;p&gt;A samurai has no goal, only a path (c).&lt;/p&gt;&#xA;&lt;p&gt;At some point, the flow of incoming information becomes very large and powerful like the Niagara Falls. Naturally, the thought arises - to WRITE DOWN this information. The second thought is to create a NOTE ORGANIZATION SYSTEM because while writing it down is good, the recorded information needs to be searched and used, preferably with minimal effort between these points.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve tried most of the popular note-taking apps, from Notion to Obsidian and OneNote. All excellent apps with interesting concepts and rich functionality, but in the end, it became the reason why I rejected them.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Todo Lists Are Enough</title>
-      <link>http://localhost:1313/todo-lists-are-enough/</link>
-      <pubDate>Sun, 04 Feb 2024 20:34:42 -0600</pubDate>
-      <guid>http://localhost:1313/todo-lists-are-enough/</guid>
-      <description>&lt;p&gt;I always try to organize my workspace using a minimum of tools and simple rules that work for 90% of my tasks. Simple rules are easier to follow, and it doesn&amp;rsquo;t take much time to get used to them.&lt;/p&gt;&#xA;&lt;p&gt;For example, managing pet projects. I work on them quite irregularly, with breaks of several days or even a couple of weeks. Context is forgotten, and returning to project tasks takes half an hour, even though I only have an hour of free time for the project.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/about/</guid>
-      <description>&lt;p&gt;Hey there, I&amp;rsquo;m Andrey, DevOps specialist and programmer with passion&#xA;for all things tech, especially cybersecurity and automating things.&lt;/p&gt;&#xA;&lt;p&gt;My journey has been one of autodidacticism – an odyssey of&#xA;self-directed learning and practical experience. My foundation was not&#xA;laid in the traditional confines of a classroom, but rather through a&#xA;curiosity and desire to unravel the complexities of computers.&lt;/p&gt;&#xA;&lt;p&gt;I am a big fan of classic science fiction like Isaac Asimov&amp;rsquo;s&#xA;&amp;ldquo;Foundation&amp;rdquo;, &amp;ldquo;The Futurological Congress&amp;rdquo; by Stanislaw Lem or &amp;ldquo;The&#xA;Moon is a Harsh Mistress&amp;rdquo; by Robert Heinlein.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Eli5 2</title>
-      <link>http://localhost:1313/eli5/eli5-2/</link>
-      <pubDate>Sun, 06 Aug 2023 10:58:35 -0500</pubDate>
-      <guid>http://localhost:1313/eli5/eli5-2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eli5 1</title>
-      <link>http://localhost:1313/eli5/eli5-1/</link>
-      <pubDate>Sun, 06 Aug 2023 10:58:33 -0500</pubDate>
-      <guid>http://localhost:1313/eli5/eli5-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Another One</title>
-      <link>http://localhost:1313/another-one/</link>
-      <pubDate>Sun, 06 Aug 2023 10:21:01 -0500</pubDate>
-      <guid>http://localhost:1313/another-one/</guid>
-      <description>&lt;p&gt;another post&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/hello-world/</link>
-      <pubDate>Sat, 06 May 2023 20:37:33 -0600</pubDate>
-      <guid>http://localhost:1313/hello-world/</guid>
-      <description>&lt;p&gt;My first post&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Less is more</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Less is more</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>Copyright © 2024, Andrey Shuster.</copyright>
+		
+		
+			<lastBuildDate>Fri, 29 May 2026 10:00:00 -0500</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Running Ollama on a Steam Deck</title>
+				<link>http://localhost:1313/running-ollama-on-a-steam-deck/</link>
+				<pubDate>Fri, 29 May 2026 10:00:00 -0500</pubDate>
+				<guid>http://localhost:1313/running-ollama-on-a-steam-deck/</guid>
+				<description>&lt;p&gt;I use my Steam Deck in Desktop Mode more than I use it for games. It just sits docked on my desk, and recently I thought - it has 16 GB of RAM and a half-decent GPU, why not run a local model on it?&lt;/p&gt;&#xA;&lt;p&gt;So I installed Ollama. It mostly worked. A couple of SteamOS-specific things tripped me up, so I am writing it down.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-usr-problem&#34;&gt;The /usr problem&lt;/h2&gt;&#xA;&lt;p&gt;First mistake: I ran the official install script. It puts the &lt;code&gt;ollama&lt;/code&gt; binary in &lt;code&gt;/usr/local/bin&lt;/code&gt; and drops a systemd unit in &lt;code&gt;/etc/systemd/system&lt;/code&gt;. Both work fine - until the next SteamOS update wipes them. &lt;code&gt;/usr&lt;/code&gt; on SteamOS is read-only and gets replaced on every update. Anything you put there is temporary.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Setting Up Telegram Alerts for Prometheus - A Journey</title>
+				<link>http://localhost:1313/setting-up-telegram-alerts-for-prometheus-a-journey/</link>
+				<pubDate>Sat, 10 Jan 2026 21:59:22 -0600</pubDate>
+				<guid>http://localhost:1313/setting-up-telegram-alerts-for-prometheus-a-journey/</guid>
+				<description>&lt;p&gt;Today I added something useful and long overdue to my homelab.&#xA;My Spectrum router does not cover the whole house (it is not in the middle, but in a side room which is my home office), so I purchased an additional WiFi pod from Spectrum to create a mesh network. Unfortunately, the outlet where the pod is plugged in is a bit loose, so sometimes it disconnects and then Netflix starts to misbehave.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Update SteamOS packages</title>
+				<link>http://localhost:1313/update-steamos-packages/</link>
+				<pubDate>Fri, 14 Nov 2025 22:23:11 -0600</pubDate>
+				<guid>http://localhost:1313/update-steamos-packages/</guid>
+				<description>&lt;p&gt;To update Arch Linux system packages you usually run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman-key --init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman-key --populate archlinux&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;However, for SteamOS is not enough. You will continue to get error about corrupted packages.&lt;/p&gt;&#xA;&lt;p&gt;SteamOS packages are signed by their own GPG keys and they are need to populated too.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman-key --populate holo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You&amp;rsquo;re welcome!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Why Sql Is Important?</title>
+				<link>http://localhost:1313/why-sql-is-important/</link>
+				<pubDate>Sat, 24 Aug 2024 22:00:46 -0500</pubDate>
+				<guid>http://localhost:1313/why-sql-is-important/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;When writing an SQL query, you start with &lt;code&gt;SELECT&lt;/code&gt; and then &lt;code&gt;FROM&lt;/code&gt;&#xA;because it resembles human language: first, you say what you want to&#xA;get (for example, a list of names), and then you specify where to&#xA;get this data from (from the participants table). It&amp;rsquo;s easier to&#xA;remember and formulate this way, although all programmers agree that&#xA;it would be better the other way around — &lt;code&gt;FROM ... SELECT&lt;/code&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Raspberry Pi</title>
+				<link>http://localhost:1313/raspberry-pi/</link>
+				<pubDate>Thu, 02 May 2024 09:49:49 -0500</pubDate>
+				<guid>http://localhost:1313/raspberry-pi/</guid>
+				<description>&lt;p&gt;TBD&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My note-taking journey</title>
+				<link>http://localhost:1313/my-note-taking-journey/</link>
+				<pubDate>Sun, 25 Feb 2024 22:31:38 -0600</pubDate>
+				<guid>http://localhost:1313/my-note-taking-journey/</guid>
+				<description>&lt;p&gt;A samurai has no goal, only a path (c).&lt;/p&gt;&#xA;&lt;p&gt;At some point, the flow of incoming information becomes very large and powerful like the Niagara Falls. Naturally, the thought arises - to WRITE DOWN this information. The second thought is to create a NOTE ORGANIZATION SYSTEM because while writing it down is good, the recorded information needs to be searched and used, preferably with minimal effort between these points.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve tried most of the popular note-taking apps, from Notion to Obsidian and OneNote. All excellent apps with interesting concepts and rich functionality, but in the end, it became the reason why I rejected them.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Todo Lists Are Enough</title>
+				<link>http://localhost:1313/todo-lists-are-enough/</link>
+				<pubDate>Sun, 04 Feb 2024 20:34:42 -0600</pubDate>
+				<guid>http://localhost:1313/todo-lists-are-enough/</guid>
+				<description>&lt;p&gt;I always try to organize my workspace using a minimum of tools and simple rules that work for 90% of my tasks. Simple rules are easier to follow, and it doesn&amp;rsquo;t take much time to get used to them.&lt;/p&gt;&#xA;&lt;p&gt;For example, managing pet projects. I work on them quite irregularly, with breaks of several days or even a couple of weeks. Context is forgotten, and returning to project tasks takes half an hour, even though I only have an hour of free time for the project.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About me</title>
+				<link>http://localhost:1313/pages/about/</link>
+				<pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/pages/about/</guid>
+				<description>&lt;p&gt;Hey there, I&amp;rsquo;m Andrey, DevOps specialist and programmer with passion&#xA;for all things tech, especially cybersecurity and automating things.&lt;/p&gt;&#xA;&lt;p&gt;My journey has been one of autodidacticism – an odyssey of&#xA;self-directed learning and practical experience. My foundation was not&#xA;laid in the traditional confines of a classroom, but rather through a&#xA;curiosity and desire to unravel the complexities of computers.&lt;/p&gt;&#xA;&lt;p&gt;I am a big fan of classic science fiction like Isaac Asimov&amp;rsquo;s&#xA;&amp;ldquo;Foundation&amp;rdquo;, &amp;ldquo;The Futurological Congress&amp;rdquo; by Stanislaw Lem or &amp;ldquo;The&#xA;Moon is a Harsh Mistress&amp;rdquo; by Robert Heinlein.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Eli5 2</title>
+				<link>http://localhost:1313/eli5/eli5-2/</link>
+				<pubDate>Sun, 06 Aug 2023 10:58:35 -0500</pubDate>
+				<guid>http://localhost:1313/eli5/eli5-2/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Eli5 1</title>
+				<link>http://localhost:1313/eli5/eli5-1/</link>
+				<pubDate>Sun, 06 Aug 2023 10:58:33 -0500</pubDate>
+				<guid>http://localhost:1313/eli5/eli5-1/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Another One</title>
+				<link>http://localhost:1313/another-one/</link>
+				<pubDate>Sun, 06 Aug 2023 10:21:01 -0500</pubDate>
+				<guid>http://localhost:1313/another-one/</guid>
+				<description>&lt;p&gt;another post&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hello World</title>
+				<link>http://localhost:1313/hello-world/</link>
+				<pubDate>Sat, 06 May 2023 20:37:33 -0600</pubDate>
+				<guid>http://localhost:1313/hello-world/</guid>
+				<description>&lt;p&gt;My first post&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

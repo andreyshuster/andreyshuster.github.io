@@ -1,12 +1,31 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-10T21:59:22-06:00</lastmod>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-01-10T21:59:22-06:00</lastmod>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ai/</loc>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/llm/</loc>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ollama/</loc>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/running-ollama-on-a-steam-deck/</loc>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/steamdeck/</loc>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/steamos/</loc>
+    <lastmod>2026-05-29T10:00:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/alertmanager/</loc>
     <lastmod>2026-01-10T21:59:22-06:00</lastmod>
@@ -24,9 +43,6 @@
     <lastmod>2026-01-10T21:59:22-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/archlinux/</loc>
-    <lastmod>2025-11-14T22:23:11-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/steamos/</loc>
     <lastmod>2025-11-14T22:23:11-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/update-steamos-packages/</loc>
